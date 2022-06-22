@@ -1,11 +1,10 @@
 # tf-module-example
 
 
-### How to use
+### Usage
 
 ```hcl
 module "my_ec2_instance" {
-  # source = "./new_module"
 
   source = "github.com/chis0m/tf-module-example"
 
