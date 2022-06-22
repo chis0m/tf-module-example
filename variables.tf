@@ -12,8 +12,3 @@ variable "ec2_instance_name" {
   type        = string
   description = "Preferred Instance name"
 }
-
-variable "number_of_instances" {
-  type        = number
-  description = "Number of instances"
-}
